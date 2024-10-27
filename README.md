@@ -23,6 +23,3 @@ Bu marketplace, kullanıcıların **Items** adlı koleksiyonlara erişmesini sa�
 
 ## Kullanım
 Bu projeyi geliştirmek için Andromeda platformunun sağladığı API ve dokümantasyonu inceleyerek geliştirme yapabilirsiniz. JSON yapılandırmasını platform gereksinimlerine göre özelleştirebilir ve yeni koleksiyonlar ekleyebilirsiniz.
-
-## Lisans
-Bu proje **Baba Marketplace** tarafından sağlanmıştır.
