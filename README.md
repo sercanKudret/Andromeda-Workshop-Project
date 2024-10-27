@@ -1,28 +1,28 @@
 # Baba Marketplace
 
-Baba Marketplace, **Andromeda Blockchain** üzerinde geliştirilmiş bir NFT marketplace platformudur. Akıllı sözleşmeler kullanarak oluşturulmuş bu platform, dijital varlıkların alınıp satılması ve transfer edilmesi için güvenilir bir ortam sağlar.
+Baba Marketplace is an NFT marketplace platform developed on the **Andromeda Blockchain**. Built with smart contracts, this platform provides a secure environment for buying, selling, and transferring digital assets.
 
-## Platform Detayları
+## Platform Details
 - **Coin Denom**: `uandr`
-- **Platform Adı**: Baba Marketplace
-- **Blockchain Zincir ID**: `galileo-4`
-- **Oluşturulma Tarihi**: 2024-10-27
+- **Platform Name**: Baba Marketplace
+- **Blockchain Chain ID**: `galileo-4`
+- **Creation Date**: 2024-10-27
 
-## Koleksiyonlar
-Bu marketplace, kullanıcıların **Items** adlı koleksiyonlara erişmesini sağlayan "embeddables-marketplace" türünde bir koleksiyona sahiptir.
+## Collections
+This marketplace includes an "embeddables-marketplace" type collection called **Items**, allowing users to access and manage their assets within this collection.
 
 - **Marketplace ID**: `andr1hsrnd6nts90zeldj7n0ngszftynyg7rqs5cesttg4v345hxj23yqj3hjen`
-- **NFT Koleksiyon CW721 Adresi**: `andr13kel5745ah0fzff9t4yy6njqu323wgwalqh4ae37sy2p9knxy95s6kc794`
-- **Koleksiyon Adı**: Items
-- **Koleksiyon Türü**: Embeddables Marketplace
-- **Koleksiyon ID**: `embeddables-marketplace-1`
+- **NFT Collection CW721 Address**: `andr13kel5745ah0fzff9t4yy6njqu323wgwalqh4ae37sy2p9knxy95s6kc794`
+- **Collection Name**: Items
+- **Collection Type**: Embeddables Marketplace
+- **Collection ID**: `embeddables-marketplace-1`
 
-## Özellikler
-- **NFT İşlemleri**: Koleksiyonlarınızda NFT oluşturma, transfer etme ve satma işlemlerini destekler.
-- **Akıllı Sözleşme Uyumluluğu**: Platform Andromeda Blockchain'deki akıllı sözleşmelerle etkileşimli çalışarak güvenli ve hızlı işlem yapabilmenizi sağlar.
+## Features
+- **NFT Transactions**: Supports creating, transferring, and selling NFTs within your collections.
+- **Smart Contract Compatibility**: The platform works interactively with smart contracts on Andromeda Blockchain, enabling secure and fast transactions.
 
-## Kullanım
-Bu projeyi geliştirmek için Andromeda platformunun sağladığı API ve dokümantasyonu inceleyerek geliştirme yapabilirsiniz. JSON yapılandırmasını platform gereksinimlerine göre özelleştirebilir ve yeni koleksiyonlar ekleyebilirsiniz.
+## Usage
+To develop this project further, you can explore the API and documentation provided by the Andromeda platform. You may customize the JSON configuration to meet platform requirements and add new collections as needed.
 
-## Göz Atın
-https://embeddables.testnet.andromedaprotocol.io/galileo-4/baba-marketplace
+## Explore
+Visit [Embeddables Marketplace on Testnet](https://embeddables.testnet.andromedaprotocol.io/galileo-4/baba-marketplace).
