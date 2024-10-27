@@ -23,3 +23,6 @@ Bu marketplace, kullanıcıların **Items** adlı koleksiyonlara erişmesini sa�
 
 ## Kullanım
 Bu projeyi geliştirmek için Andromeda platformunun sağladığı API ve dokümantasyonu inceleyerek geliştirme yapabilirsiniz. JSON yapılandırmasını platform gereksinimlerine göre özelleştirebilir ve yeni koleksiyonlar ekleyebilirsiniz.
+
+## Göz Atın
+https://embeddables.testnet.andromedaprotocol.io/galileo-4/baba-marketplace
