@@ -1,48 +1,58 @@
-# Marketplace
+<p>&nbsp;</p>
+<p align="center">
+<img src="https://github.com/andromedaprotocol/andromeda-nextjs-application-starter/blob/main/public/Andromeda-Logo.png" width=1000>
+</p>
 
-Marketplace is an NFT platform built on the **Andromeda Blockchain**. This platform facilitates the buying, selling, and transferring of digital assets securely and efficiently using smart contracts.
+# About
+The Andromeda Next.js Application Starter is a base setup for developers to start building without having to worry about the prerequisites. Containing all the key parts needed, it allows you to set up in minutes and start working on your builds. The starter contains the following setups:
+- Keplr integration
+- Andromeda Client (Devnet)
+- GraphQL integration
+- Contract execution hooks 
 
-## Introduction
-Marketplace aims to empower creators and collectors in the NFT space by providing a user-friendly and reliable marketplace that leverages the advantages of blockchain technology. Our primary motivation is to enhance user experience by ensuring security, transparency, and autonomy.
+Using this as a starting template, any developer can create their own nextjs application with custom embeddables that suit their needs.
 
-## Problem or Opportunity
-With the rising demand for digital assets and NFTs, users need a platform that addresses the limitations of existing Web2 solutions, such as high fees, lack of transparency, and centralized control. Marketplace offers a decentralized alternative that prioritizes user rights and improves transaction security.
+**Notes**:
+- It mainly uses Chakra UI, but developers can install any styling library, such as Tailwind, for example.
+- This setup is currently using our Devnet (Testnet for Devs). If you encounter any issues connecting to the GraphQL or chain, please contact us for support.
 
-## Solution or Innovation
-Marketplace utilizes the **Andromeda Blockchain** and smart contracts to facilitate secure and automated transactions, eliminating intermediaries and reducing costs. We also leverage IPFS (InterPlanetary File System) for decentralized storage of digital assets, ensuring data integrity and user privacy.
+ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). 
 
-### Technologies Used
-- **Blockchain**: Andromeda Blockchain (Chain ID: `galileo-4`)
-- **Smart Contracts**: For secure transaction handling
-- **IPFS**: For decentralized storage of digital assets
+## Getting Started
 
-## Impact or Value
-Marketplace provides significant value by offering a transparent and efficient platform for NFT transactions. Success will be measured through user engagement rates, transaction volumes, and user satisfaction metrics. We aim to build a vibrant community of creators and collectors, driving NFT adoption.
+First, run the development server:
 
-### Challenges and Risks
-While optimistic about Marketplace's potential, we recognize challenges such as market volatility, regulatory uncertainties, and the need for ongoing user education. We are committed to adapting our platform to meet emerging trends and user needs.
+```bash
+npm i
+# then 
+npm run dev
+# or
+yarn dev
+```
 
-## Platform Details
-- **Coin Denom**: `uandr`
-- **Platform Name**: Marketplace
-- **Blockchain Chain ID**: `galileo-4`
-- **Creation Date**: 2024-10-27
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Collections
-Marketplace includes an "embeddables-marketplace" type collection called **Items**, allowing users to manage their assets efficiently.
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-- **Marketplace ID**: `andr1hsrnd6nts90zeldj7n0ngszftynyg7rqs5cesttg4v345hxj23yqj3hjen`
-- **NFT Collection CW721 Address**: `andr13kel5745ah0fzff9t4yy6njqu323wgwalqh4ae37sy2p9knxy95s6kc794`
-- **Collection Name**: Items
-- **Collection Type**: Embeddables Marketplace
-- **Collection ID**: `embeddables-marketplace-1`
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-## Features
-- **NFT Transactions**: Supports creating, transferring, and selling NFTs within your collections.
-- **Smart Contract Compatibility**: Works interactively with smart contracts on the Andromeda Blockchain for secure transactions.
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Usage
-To develop this project further, explore the API and documentation provided by the Andromeda platform. Customize the JSON configuration to meet platform requirements and add new collections as needed.
+## Learn More
 
-## Explore
-Visit [Embeddables Marketplace on Testnet](https://embeddables.testnet.andromedaprotocol.io/galileo-4/baba-marketplace).
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Licensing
+
+[Terms and Conditions](https://github.com/andromedaprotocol/andromeda-core/blob/development/LICENSE/LICENSE.md)
