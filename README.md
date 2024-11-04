@@ -45,4 +45,4 @@ Marketplace includes an "embeddables-marketplace" type collection called **Items
 To develop this project further, explore the API and documentation provided by the Andromeda platform. Customize the JSON configuration to meet platform requirements and add new collections as needed.
 
 ## Explore
-Visit [Embeddables Marketplace on Testnet](https://embeddables.testnet.andromedaprotocol.io/galileo-4/marketplace).
+Visit [Embeddables Marketplace on Testnet](https://embeddables.testnet.andromedaprotocol.io/galileo-4/baba-marketplace).
